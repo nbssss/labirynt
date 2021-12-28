@@ -7,11 +7,12 @@ void menu()
 	cout << "Menu:" << endl;
 	cout << "Wybierz postac" << endl;
 	cout << "Jak grac?" << endl;
+    cout << "Statystyki" << endl;
 	cout << "Wyjscie" << endl;
 	cout << "Tworcy" << endl;
 }
 
-int ruch_strzalkami(int x, int y)
+int ruch_strzalkami(int x, int y) // x i y beda pozycjami postaci na planszy
 {
     bool koniec = false;
     while (koniec == false)
